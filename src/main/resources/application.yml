@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  tomcat:
+    min-spare-threads: 3
+
+dst:
+  username: admin
+  password: 123456
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  messages:
+    encoding: utf-8
+    basename: i18n/message
+
